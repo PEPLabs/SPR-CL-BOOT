@@ -17,6 +17,8 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
  * you can see in the Controller package.
  *
  * Check out the NotebookService class and TimeService class for the code needed to solve the lab.
+ * Also, notice how Spring starts up an embedded Tomcat server for you when running the project - it's automatically
+ * doing this based off of the endpoints provided in the NotebookController class!
  *
  * (the 'exclude' portion seen here to prevent Spring Boot from trying to autoconfigure a database connection.)
  *
