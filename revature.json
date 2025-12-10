@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SpringTest.java",
+      "testCases": [
+        {
+          "methodName": "contextLoads",
+          "label": "Verify Spring ApplicationContext loads",
+          "description": "Ensures that the Spring ApplicationContext can start successfully, confirming that the application configuration is correct."
+        }
+      ]
+    }
+  ]
+}
